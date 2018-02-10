@@ -1,0 +1,2803 @@
+
+  
+  
+   AARP,
+   
+   center
+  ,
+  
+   ABC News,
+   
+   left-center
+  ,
+  
+   Accuracy in Media,
+   
+   right
+  ,
+  
+   ACLU,
+   
+   left-center
+  ,
+  
+   Al Cardenas,
+   
+   right
+  ,
+  
+   Al Jazeera,
+   
+   center
+  ,
+  
+   Alison Lundergan Grimes,
+   
+   left
+  ,
+  
+   AllSides,
+   
+   allsides
+  ,
+  
+   AllSides Community,
+   
+   allsides
+  ,
+  
+   Allysia Finley (Wall Street Journal),
+   
+   right
+  ,
+  
+   AlterNet,
+   
+   left
+  ,
+  
+   American Association of Retired Persons,
+   
+   left-center
+  ,
+  
+   American Conservative Union,
+   
+   right
+  ,
+  
+   American Enterprise Institute,
+   
+   right-center
+  ,
+  
+   American Spectator,
+   
+   right
+  ,
+  
+   American Thinker,
+   
+   right
+  ,
+  
+   Americans for Democratic Action,
+   
+   left
+  ,
+  
+   Americans for Tax Reform,
+   
+   right
+  ,
+  
+   Amnesty International,
+   
+   center
+  ,
+  
+   Andrew Napolitano,
+   
+   right
+  ,
+  
+   Ann Coulter,
+   
+   right
+  ,
+  
+   AP,
+   
+   center
+  ,
+  
+   Aquinas College Saint,
+   
+   left
+  ,
+  
+   Arkadi Gerney,
+   
+   left-center
+  ,
+  
+   Arkansas Democrat-Gazette,
+   
+   left
+  ,
+  
+   Associated Press,
+   
+   center
+  ,
+  
+   Association for Psychological Science,
+   
+   center
+  ,
+  
+   Atlanta Journal-Constitution,
+   
+   left-center
+  ,
+  
+   Atlas Network,
+   
+   right
+  ,
+  
+   AtlasOne,
+   
+   right-center
+  ,
+  
+   Austin American-Statesman,
+   
+   left-center
+  ,
+  
+   Axios,
+   
+   center
+  ,
+  
+   Ballotpedia,
+   
+   center
+  ,
+  
+   Barack Obama,
+   
+   left-center
+  ,
+  
+   Barnstable Patriot,
+   
+   center
+  ,
+  
+   BBC News,
+   
+   center
+  ,
+  
+   Bearing Drift,
+   
+   right
+  ,
+  
+   Ben Sargent (cartoonist),
+   
+   left
+  ,
+  
+   Ben Shapiro,
+   
+   right
+  ,
+  
+   Ben Stein,
+   
+   right-center
+  ,
+  
+   Beth Ballentine,
+   
+   center
+  ,
+  
+   Bill Cassidy,
+   
+   right
+  ,
+  
+   Billy Binion,
+   
+   center
+  ,
+  
+   Bloomberg,
+   
+   center
+  ,
+  
+   Blue Virginia,
+   
+   left
+  ,
+  
+   Bob Gorrell (cartoonist),
+   
+   right
+  ,
+  
+   Boing Boing,
+   
+   left
+  ,
+  
+   Bowling Green Daily News,
+   
+   left-center
+  ,
+  
+   Breitbart News,
+   
+   right
+  ,
+  
+   Brent Bozell,
+   
+   right
+  ,
+  
+   Bret Stephens,
+   
+   right-center
+  ,
+  
+   Brookings Institution,
+   
+   center
+  ,
+  
+   Bruce Braley,
+   
+   left
+  ,
+  
+   Business Insider,
+   
+   center
+  ,
+  
+   Bustle,
+   
+   left-center
+  ,
+  
+   Buzzfeed,
+   
+   left-center
+  ,
+  
+   C-SPAN,
+   
+   center
+  ,
+  
+   CalMatters,
+   
+   center
+  ,
+  
+   CalWatchdog,
+   
+   center
+  ,
+  
+   Care 2,
+   
+   left
+  ,
+  
+   Carnegie Endowment for International Peace,
+   
+   center
+  ,
+  
+   Carrie Lukas,
+   
+   right
+  ,
+  
+   Cato Institute (blog),
+   
+   right-center
+  ,
+  
+   CBN,
+   
+   right
+  ,
+  
+   CBS News,
+   
+   left-center
+  ,
+  
+   Center - Major Media Sources,
+   
+   center
+  ,
+  
+   Center For American Progress,
+   
+   left-center
+  ,
+  
+   Center for Defense Information,
+   
+   left-center
+  ,
+  
+   Center for Media & Democracy PR Watch,
+   
+   left-center
+  ,
+  
+   Center for Public Integrity,
+   
+   left-center
+  ,
+  
+   Center for Responsive Politics,
+   
+   left-center
+  ,
+  
+   Center for Strategic and Budgetary Assessments,
+   
+   right-center
+  ,
+  
+   Center for Strategic and International Studies,
+   
+   center
+  ,
+  
+   Center on Budget and Policy Priorities,
+   
+   left
+  ,
+  
+   Centre View,
+   
+   left-center
+  ,
+  
+   Chan Lowe (cartoonist),
+   
+   left
+  ,
+  
+   Charles Blow,
+   
+   left-center
+  ,
+  
+   Charles Krauthammer,
+   
+   right-center
+  ,
+  
+   Chicago Booth Initiative on Global Markets,
+   
+   allsides
+  ,
+  
+   Chicago Sun-Times,
+   
+   left-center
+  ,
+  
+   Chicago Tribune,
+   
+   center
+  ,
+  
+   Children’s Defense Fund,
+   
+   left
+  ,
+  
+   Chip Bok (cartoonist),
+   
+   right
+  ,
+  
+   Chris Britt (cartoonist),
+   
+   center
+  ,
+  
+   Chris Ruddy,
+   
+   right
+  ,
+  
+   Christian Coalition,
+   
+   right-center
+  ,
+  
+   Christian Science Monitor,
+   
+   center
+  ,
+  
+   Christiane Amanpour,
+   
+   left-center
+  ,
+  
+   Chuck Asay (cartoonist),
+   
+   right
+  ,
+  
+   Citizens Against Government Waste,
+   
+   right-center
+  ,
+  
+   Citizens for Tax Justice,
+   
+   left
+  ,
+  
+   CivilPolitics.org,
+   
+   center
+  ,
+  
+   Clay Bennett (cartoonist),
+   
+   left
+  ,
+  
+   CNBC,
+   
+   center
+  ,
+  
+   CNN (Web News),
+   
+   center
+  ,
+  
+   CNN - Editorial,
+   
+   left
+  ,
+  
+   CNS News,
+   
+   right
+  ,
+  
+   CNSNews.com,
+   
+   right
+  ,
+  
+   Common Cause,
+   
+   left-center
+  ,
+  
+   Conservative HQ,
+   
+   right
+  
+ 
+
+
+  
+  
+   Consumer Federation of America,
+   
+   left
+  ,
+  
+   Cook Report,
+   
+   center
+  ,
+  
+   Cory Garden,
+   
+   right
+  ,
+  
+   Council on Foreign Relations,
+   
+   left
+  ,
+  
+   Council on Foreign Relations,
+   
+   left-center
+  ,
+  
+   Counter Currents,
+   
+   left-center
+  ,
+  
+   Counter Pointing,
+   
+   allsides
+  ,
+  
+   Counterpointing,
+   
+   allsides
+  ,
+  
+   CrowdPAC,
+   
+   center
+  ,
+  
+   CU Independent,
+   
+   center
+  ,
+  
+   Daily Beast,
+   
+   left
+  ,
+  
+   Daily Cardinal,
+   
+   center
+  ,
+  
+   Daily Kos,
+   
+   left
+  ,
+  
+   Daily Mail,
+   
+   right
+  ,
+  
+   Daily Northwestern,
+   
+   left-center
+  ,
+  
+   Daily Press,
+   
+   right-center
+  ,
+  
+   Daily Progress,
+   
+   center
+  ,
+  
+   Daily Targum,
+   
+   left-center
+  ,
+  
+   Damon Linker,
+   
+   left-center
+  ,
+  
+   Dan Lucas,
+   
+   right
+  ,
+  
+   Dan Sullivan`,
+   
+   right
+  ,
+  
+   Dan Wasserman (cartoonist),
+   
+   left
+  ,
+  
+   Dana Milbank,
+   
+   center
+  ,
+  
+   Dana Summers (cartoonist),
+   
+   right-center
+  ,
+  
+   David Brooks,
+   
+   right-center
+  ,
+  
+   David Holmes,
+   
+   left-center
+  ,
+  
+   David Ignatius,
+   
+   center
+  ,
+  
+   David Leonhardt,
+   
+   left-center
+  ,
+  
+   David Perdue,
+   
+   right
+  ,
+  
+   Debra Saunders,
+   
+   right
+  ,
+  
+   Defense One,
+   
+   center
+  ,
+  
+   Democracy Now,
+   
+   left
+  ,
+  
+   Democratic Elected Official,
+   
+   left
+  ,
+  
+   Democratic Party,
+   
+   left-center
+  ,
+  
+   Deseret News,
+   
+   right-center
+  ,
+  
+   Dick Locher (cartoonist),
+   
+   right
+  ,
+  
+   Dick Morris,
+   
+   right-center
+  ,
+  
+   Diplomatic Courier,
+   
+   center
+  ,
+  
+   Donald Trump,
+   
+   right
+  ,
+  
+   Drew Litton (cartoonist),
+   
+   center
+  ,
+  
+   Drew Sheneman (cartoonist),
+   
+   left
+  ,
+  
+   Drudge Report,
+   
+   right
+  ,
+  
+   Duf Sundheim,
+   
+   right-center
+  ,
+  
+   Duke Chronicle,
+   
+   center
+  ,
+  
+   E J Dionne,
+   
+   left
+  ,
+  
+   Economic Policy Institute,
+   
+   left
+  ,
+  
+   Economic Policy Institute,
+   
+   left
+  ,
+  
+   Economic Strategy Institute,
+   
+   left-center
+  ,
+  
+   Ed Rogers,
+   
+   right
+  ,
+  
+   EdVotes.org,
+   
+   left
+  ,
+  
+   Edward Morrissey,
+   
+   right
+  ,
+  
+   Electronic Privacy Information Center,
+   
+   center
+  ,
+  
+   Elizabeth Warren,
+   
+   left
+  ,
+  
+   Employee Benefit Research Institute,
+   
+   center
+  ,
+  
+   Environmental Defense Fund,
+   
+   left-center
+  ,
+  
+   Eric Allie (cartoonist),
+   
+   right
+  ,
+  
+   Erik Wemple,
+   
+   center
+  ,
+  
+   Esquire,
+   
+   left
+  ,
+  
+   Estes Park Trail Gazette,
+   
+   center
+  ,
+  
+   Eugene Robinson,
+   
+   left
+  ,
+  
+   Eurek Alert,
+   
+   center
+  ,
+  
+   Ezra Klein,
+   
+   left
+  ,
+  
+   Face the Facts USA,
+   
+   center
+  ,
+  
+   Fact Checker Blog,
+   
+   center
+  ,
+  
+   FactCheck.org,
+   
+   center
+  ,
+  
+   FAIR,
+   
+   left-center
+  ,
+  
+   Fair.org,
+   
+   center
+  ,
+  
+   Falls Church News - Press,
+   
+   left
+  ,
+  
+   Family Research Council,
+   
+   right-center
+  ,
+  
+   Fareed Zakaria,
+   
+   center
+  ,
+  
+   Federation of American Scientists,
+   
+   left-center
+  ,
+  
+   Fiscal Times,
+   
+   right-center
+  ,
+  
+   FiveThirtyEight,
+   
+   center
+  ,
+  
+   FiveThirtyEight,
+   
+   center
+  ,
+  
+   Food Democracy Now,
+   
+   left-center
+  ,
+  
+   Forbes,
+   
+   center
+  ,
+  
+   Foreign Affairs,
+   
+   center
+  ,
+  
+   Fox News,
+   
+   right-center
+  ,
+  
+   Fox News Editorial,
+   
+   right
+  ,
+  
+   Fox News Latino,
+   
+   right
+  ,
+  
+   Frank Bruni,
+   
+   left-center
+  ,
+  
+   Frank Miniter,
+   
+   right
+  ,
+  
+   Freakonomics,
+   
+   center
+  ,
+  
+   Freedom House,
+   
+   right-center
+  ,
+  
+   Froma Harrop,
+   
+   left-center
+  ,
+  
+   FrontPage Magazine,
+   
+   right
+  ,
+  
+   Funny News,
+   
+   right
+  ,
+  
+   Gallup,
+   
+   center
+  ,
+  
+   Gary Markstein (cartoonist),
+   
+   center
+  ,
+  
+   Gary Peters,
+   
+   left
+  ,
+  
+   Gary Varvel (cartoonist),
+   
+   right
+  ,
+  
+   George Will,
+   
+   right
+  ,
+  
+   Glenn Beck,
+   
+   right
+  ,
+  
+   Glenn McCoy (cartoonist),
+   
+   right
+  ,
+  
+   GOP.gov,
+   
+   right
+  ,
+  
+   Grist,
+   
+   left-center
+  ,
+  
+   Grover Norquist,
+   
+   right
+  ,
+  
+   Guest Writer - Left,
+   
+   left-center
+  ,
+  
+   Guest Writer - Right,
+   
+   right-center
+  ,
+  
+   Hampton Roads Messanger,
+   
+   center
+  
+ 
+
+
+  
+  
+   Handgun Control, Inc.,
+   
+   left-center
+  ,
+  
+   Harvard Business School,
+   
+   left-center
+  ,
+  
+   Healthcare.gov,
+   
+   left-center
+  ,
+  
+   Heather Mac Donald,
+   
+   right
+  ,
+  
+   Henry Payne (cartoonist),
+   
+   right
+  ,
+  
+   Herald Democrat,
+   
+   left
+  ,
+  
+   Heritage.org,
+   
+   right-center
+  ,
+  
+   Hillary Clinton,
+   
+   left
+  ,
+  
+   Honolulu Civil Beat,
+   
+   center
+  ,
+  
+   Hoover Institution,
+   
+   right-center
+  ,
+  
+   HotAir,
+   
+   right-center
+  ,
+  
+   How Do We Fix It?,
+   
+   center
+  ,
+  
+   Howard Kurtz,
+   
+   center
+  ,
+  
+   Hudson Institute,
+   
+   right-center
+  ,
+  
+   HuffPost,
+   
+   left
+  ,
+  
+   Inacow,
+   
+   right
+  ,
+  
+   Independent Institute,
+   
+   right-center
+  ,
+  
+   Independent Journal Review,
+   
+   right-center
+  ,
+  
+   Indiana Daily Student,
+   
+   center
+  ,
+  
+   Indy Online,
+   
+   center
+  ,
+  
+   Indy Week,
+   
+   left-center
+  ,
+  
+   InfoWars,
+   
+   right
+  ,
+  
+   Inside Philanthropy,
+   
+   center
+  ,
+  
+   Institute for International Economics,
+   
+   center
+  ,
+  
+   Intellectual Conservative,
+   
+   right-center
+  ,
+  
+   International Business Times,
+   
+   center
+  ,
+  
+   International Institute for Strategic Studies,
+   
+   center
+  ,
+  
+   Investor's Business Daily,
+   
+   right-center
+  ,
+  
+   IVN,
+   
+   center
+  ,
+  
+   Jack Ohman (cartoonist),
+   
+   left
+  ,
+  
+   Jack Welch,
+   
+   right-center
+  ,
+  
+   James Hohmann,
+   
+   right-center
+  ,
+  
+   James Pethokoukis,
+   
+   right-center
+  ,
+  
+   James Poulos,
+   
+   right
+  ,
+  
+   Jeanne Shaheen,
+   
+   left
+  ,
+  
+   Jeff Danziger (cartoonist),
+   
+   left
+  ,
+  
+   Jeff Jacoby,
+   
+   right
+  ,
+  
+   Jeff Stahler (cartoonist),
+   
+   left
+  ,
+  
+   Jen Sorensen (cartoonist),
+   
+   left
+  ,
+  
+   Jennifer Rubin,
+   
+   right-center
+  ,
+  
+   Jerry Bowyer,
+   
+   right
+  ,
+  
+   Jerry Holbert (cartoonist),
+   
+   right
+  ,
+  
+   Jesse Jackson,
+   
+   left
+  ,
+  
+   Jim Morin (cartoonist),
+   
+   left
+  ,
+  
+   Jim Rutenberg,
+   
+   left-center
+  ,
+  
+   Joan Blades,
+   
+   left
+  ,
+  
+   Joe Scarborough,
+   
+   right-center
+  ,
+  
+   Joel Pett (cartoonist),
+   
+   left
+  ,
+  
+   John Boehner,
+   
+   right
+  ,
+  
+   John Deering (cartoonist),
+   
+   center
+  ,
+  
+   John Fund,
+   
+   right-center
+  ,
+  
+   John Gable, AllSides Founder,
+   
+   center
+  ,
+  
+   John K. Herr,
+   
+   right-center
+  ,
+  
+   John Pudner,
+   
+   right
+  ,
+  
+   John Stossel,
+   
+   right-center
+  ,
+  
+   Jon Terbush,
+   
+   left-center
+  ,
+  
+   Jonathan Chait,
+   
+   left
+  ,
+  
+   Jonathan Miller,
+   
+   left
+  ,
+  
+   Joni Ernst,
+   
+   right
+  ,
+  
+   Journalist's Resource,
+   
+   center
+  ,
+  
+   Juan Williams,
+   
+   left-center
+  ,
+  
+   Judicial Watch,
+   
+   right-center
+  ,
+  
+   Julian Zelizer,
+   
+   left-center
+  ,
+  
+   Kathleen Parker,
+   
+   right-center
+  ,
+  
+   Kay Hagan,
+   
+   left
+  ,
+  
+   Kay Hagan,
+   
+   left
+  ,
+  
+   Ken Catalino (cartoonist),
+   
+   right
+  ,
+  
+   Kevin Kallaugher (cartoonist),
+   
+   center
+  ,
+  
+   Kimberley A. Strassel,
+   
+   right
+  ,
+  
+   KQED,
+   
+   center
+  ,
+  
+   KSL,
+   
+   right
+  ,
+  
+   Lalo Alcaraz (cartoonist),
+   
+   left
+  ,
+  
+   Lanhee Chen,
+   
+   right
+  ,
+  
+   Las Vegas Sun,
+   
+   left-center
+  ,
+  
+   Lauren Duca,
+   
+   left
+  ,
+  
+   Leesburg Today,
+   
+   right-center
+  ,
+  
+   Left - Major Media Sources,
+   
+   left
+  ,
+  
+   Left Guest Commentaries,
+   
+   left
+  ,
+  
+   Leonard Pitts Jr,
+   
+   left
+  ,
+  
+   Lifehacker,
+   
+   center
+  ,
+  
+   Lisa Benson (cartoonist),
+   
+   right
+  ,
+  
+   Listen First Project,
+   
+   allsides
+  ,
+  
+   Live Action News,
+   
+   right-center
+  ,
+  
+   Living Room Conversations,
+   
+   allsides
+  ,
+  
+   Longmont Times-Call,
+   
+   left-center
+  ,
+  
+   Los Angeles Times,
+   
+   left-center
+  ,
+  
+   Louisville Courier-Journal,
+   
+   left-center
+  ,
+  
+   Manhattan Institute,
+   
+   right-center
+  ,
+  
+   Marc A. Thiessen,
+   
+   right
+  ,
+  
+   Mark Begich,
+   
+   left
+  ,
+  
+   Mark Begich,
+   
+   left
+  ,
+  
+   Mark Gerzon,
+   
+   center
+  ,
+  
+   Mark Mix,
+   
+   right
+  ,
+  
+   Mark Morford,
+   
+   left
+  ,
+  
+   Mark Prior,
+   
+   left
+  ,
+  
+   Mark Udall,
+   
+   left
+  ,
+  
+   Marshall Ramsey (cartoonist),
+   
+   center
+  ,
+  
+   Mary Landrieu,
+   
+   left
+  ,
+  
+   Mary O'Grady,
+   
+   right
+  ,
+  
+   Mashable,
+   
+   left
+  
+ 
+
+
+  
+  
+   Matt Bors (cartoonist),
+   
+   left
+  ,
+  
+   Matt Davies (cartoonist),
+   
+   left
+  ,
+  
+   Matt Drudge,
+   
+   right
+  ,
+  
+   Matt Towery,
+   
+   right-center
+  ,
+  
+   Matt Welch,
+   
+   right-center
+  ,
+  
+   Matt Wuerker (cartoonist),
+   
+   left
+  ,
+  
+   Maureen Dowd,
+   
+   center
+  ,
+  
+   Media Matters,
+   
+   left
+  ,
+  
+   Media Research Center,
+   
+   right
+  ,
+  
+   Media Research Center,
+   
+   right
+  ,
+  
+   Mediaite,
+   
+   left-center
+  ,
+  
+   Miami Herald,
+   
+   left-center
+  ,
+  
+   Michael Barone,
+   
+   right-center
+  ,
+  
+   Michael Brendan Dougherty,
+   
+   right-center
+  ,
+  
+   Michael Gerson,
+   
+   right-center
+  ,
+  
+   Michael Kinsley,
+   
+   left
+  ,
+  
+   Michael Medved,
+   
+   right
+  ,
+  
+   Michael Ramirez (cartoonist),
+   
+   right
+  ,
+  
+   Michele Nunn,
+   
+   left
+  ,
+  
+   Michelle Malkin,
+   
+   right
+  ,
+  
+   MichelleMalkin.com,
+   
+   right
+  ,
+  
+   Michigan Daily,
+   
+   left-center
+  ,
+  
+   Mike Lester (cartoonist),
+   
+   right
+  ,
+  
+   Mike Luckovich (cartoonist),
+   
+   left
+  ,
+  
+   Mike Thompson (cartoonist),
+   
+   center
+  ,
+  
+   Mismatch.org,
+   
+   allsides
+  ,
+  
+   MIT News,
+   
+   center
+  ,
+  
+   Mitch McConnell,
+   
+   right
+  ,
+  
+   Mitt Romney,
+   
+   right-center
+  ,
+  
+   Morgan Jacobsen,
+   
+   center
+  ,
+  
+   Mother Jones,
+   
+   left
+  ,
+  
+   MSNBC,
+   
+   left
+  ,
+  
+   NAACP,
+   
+   left-center
+  ,
+  
+   Natalie Tennant,
+   
+   left
+  ,
+  
+   National Abortion and Reproductive Rights Action League,
+   
+   left-center
+  ,
+  
+   National Committee to Preserve Social Security and Medicare,
+   
+   left
+  ,
+  
+   National Federation of Independent Businesses,
+   
+   right-center
+  ,
+  
+   National Interest,
+   
+   center
+  ,
+  
+   National Journal,
+   
+   center
+  ,
+  
+   National Organization for Women,
+   
+   left-center
+  ,
+  
+   National Review,
+   
+   right
+  ,
+  
+   National Rifle Association,
+   
+   right-center
+  ,
+  
+   National Right to Life Committee,
+   
+   right-center
+  ,
+  
+   National Taxpayers Union,
+   
+   right-center
+  ,
+  
+   NBC Today Show,
+   
+   left-center
+  ,
+  
+   NBCNews.com,
+   
+   left-center
+  ,
+  
+   New Economy Working Group,
+   
+   left-center
+  ,
+  
+   New Republic,
+   
+   left
+  ,
+  
+   New York Daily News,
+   
+   left
+  ,
+  
+   New York Magazine,
+   
+   left
+  ,
+  
+   New York Post,
+   
+   right
+  ,
+  
+   New York Times,
+   
+   left-center
+  ,
+  
+   NewsBusters,
+   
+   right
+  ,
+  
+   Newsmax,
+   
+   right
+  ,
+  
+   Newsweek,
+   
+   left-center
+  ,
+  
+   Newt Gingrich,
+   
+   right
+  ,
+  
+   Nicholas Kristof,
+   
+   left
+  ,
+  
+   Nick Anderson (cartoonist),
+   
+   center
+  ,
+  
+   Nixon Center,
+   
+   right-center
+  ,
+  
+   NMPolitics.net,
+   
+   center
+  ,
+  
+   No Labels,
+   
+   center
+  ,
+  
+   NPR Editorial,
+   
+   left-center
+  ,
+  
+   NPR News,
+   
+   center
+  ,
+  
+   One America News Network,
+   
+   right-center
+  ,
+  
+   OpenSecrets.org,
+   
+   center
+  ,
+  
+   Orange County Register,
+   
+   right-center
+  ,
+  
+   Pacific Research Institute,
+   
+   right
+  ,
+  
+   Pacific Standard,
+   
+   left-center
+  ,
+  
+   Pat Oliphant (cartoonist),
+   
+   center
+  ,
+  
+   Paul Krugman,
+   
+   left
+  ,
+  
+   Paul Ryan,
+   
+   right
+  ,
+  
+   Paul Szep (cartoonist),
+   
+   center
+  ,
+  
+   PBS NewsHour,
+   
+   center
+  ,
+  
+   Peacock Panache,
+   
+   left
+  ,
+  
+   Peggy Noonan,
+   
+   right
+  ,
+  
+   People for the American Way,
+   
+   left
+  ,
+  
+   People for the Ethical Treatment of Animals,
+   
+   left-center
+  ,
+  
+   Peter Roff,
+   
+   right-center
+  ,
+  
+   Pew Research,
+   
+   center
+  ,
+  
+   Physicians for a National Health Program,
+   
+   left
+  ,
+  
+   Piers Morgan,
+   
+   left-center
+  ,
+  
+   Pittsburgh Post-Gazette,
+   
+   right-center
+  ,
+  
+   Politico,
+   
+   left-center
+  ,
+  
+   PoliticusUSA,
+   
+   left
+  ,
+  
+   PolitiFact,
+   
+   left-center
+  ,
+  
+   Portland Press Herald,
+   
+   center
+  ,
+  
+   Prager University,
+   
+   right
+  ,
+  
+   PRI (Public Radio International),
+   
+   center
+  ,
+  
+   ProCon.org,
+   
+   allsides
+  ,
+  
+   Progressive Voices of Iowa,
+   
+   left
+  ,
+  
+   ProPublica,
+   
+   center
+  ,
+  
+   PXW News,
+   
+   center
+  ,
+  
+   Quartz,
+   
+   center
+  ,
+  
+   Quinnipiac University,
+   
+   center
+  ,
+  
+   Rachel Eckhardt,
+   
+   left-center
+  ,
+  
+   Ralph Benko,
+   
+   right
+  ,
+  
+   Ramesh Ponnuru,
+   
+   right
+  ,
+  
+   RAND Corporation,
+   
+   left-center
+  ,
+  
+   Rand Paul,
+   
+   right-center
+  ,
+  
+   Rasmussen Reports,
+   
+   center
+  
+ 
+
+
+  
+  
+   Raw Story,
+   
+   left
+  ,
+  
+   RealClearPolitics,
+   
+   center
+  ,
+  
+   Reason,
+   
+   right-center
+  ,
+  
+   Reason Foundation,
+   
+   right-center
+  ,
+  
+   Record Journal,
+   
+   center
+  ,
+  
+   Red State,
+   
+   right
+  ,
+  
+   RedBlueDictionary.org,
+   
+   allsides
+  ,
+  
+   redefinED,
+   
+   center
+  ,
+  
+   Rem Reider,
+   
+   center
+  ,
+  
+   Republican Elected Official,
+   
+   right
+  ,
+  
+   Republican Party,
+   
+   right-center
+  ,
+  
+   Reuters,
+   
+   center
+  ,
+  
+   Rich Lowry,
+   
+   right
+  ,
+  
+   Rich Tafel,
+   
+   center
+  ,
+  
+   Rich Zeoli,
+   
+   right-center
+  ,
+  
+   Richard A. Lowry,
+   
+   right
+  ,
+  
+   Richard M. Cohen,
+   
+   left-center
+  ,
+  
+   Richmond Times Dispatch,
+   
+   right-center
+  ,
+  
+   Rick Ungar,
+   
+   left-center
+  ,
+  
+   Right - Major Media Sources,
+   
+   right
+  ,
+  
+   Right Guest Commentaries,
+   
+   right
+  ,
+  
+   Right Side News,
+   
+   right
+  ,
+  
+   Right Wing News,
+   
+   right
+  ,
+  
+   Rob Maness,
+   
+   right
+  ,
+  
+   Rob Rogers (cartoonist),
+   
+   left
+  ,
+  
+   Robert Ariail (cartoonist),
+   
+   center
+  ,
+  
+   Robert Samuelson,
+   
+   center
+  ,
+  
+   RollingStone.com,
+   
+   left
+  ,
+  
+   Ross Douthat,
+   
+   right-center
+  ,
+  
+   Ruth Marcus,
+   
+   left-center
+  ,
+  
+   Ryan Cooper,
+   
+   left
+  ,
+  
+   Ryan Cooper,
+   
+   left
+  ,
+  
+   Sally Pipes,
+   
+   right
+  ,
+  
+   Salon,
+   
+   left
+  ,
+  
+   San Francisco Chronicle,
+   
+   left
+  ,
+  
+   San Jose Mercury News,
+   
+   left-center
+  ,
+  
+   SBG,
+   
+   center
+  ,
+  
+   Science Daily,
+   
+   center
+  ,
+  
+   Scientific American,
+   
+   center
+  ,
+  
+   Scott Brown,
+   
+   right
+  ,
+  
+   Scott Stantis (cartoonist),
+   
+   right
+  ,
+  
+   Sean Haugh,
+   
+   center
+  ,
+  
+   SF Weekly,
+   
+   center
+  ,
+  
+   SFGate,
+   
+   left-center
+  ,
+  
+   Shelley Moore Capito,
+   
+   right
+  ,
+  
+   Sierra Club,
+   
+   left-center
+  ,
+  
+   Signe Wilkinson (cartoonist),
+   
+   left
+  ,
+  
+   Sky-Hi Daily News,
+   
+   left-center
+  ,
+  
+   Slate,
+   
+   left-center
+  ,
+  
+   Small World (cartoonist),
+   
+   left
+  ,
+  
+   Socialist Alternative,
+   
+   left
+  ,
+  
+   Socialist Project/The Bullet,
+   
+   left
+  ,
+  
+   Spokesman Review,
+   
+   left-center
+  ,
+  
+   State Journal,
+   
+   left-center
+  ,
+  
+   Steve Benson (cartoonist),
+   
+   left
+  ,
+  
+   Steve Breen (cartoonist),
+   
+   center
+  ,
+  
+   Steve Kelley (cartoonist),
+   
+   right
+  ,
+  
+   Steve Sack (cartoonist),
+   
+   left
+  ,
+  
+   Stimson Center,
+   
+   right-center
+  ,
+  
+   Stuart Carlson (cartoonist),
+   
+   left
+  ,
+  
+   Sunlight Foundation,
+   
+   center
+  ,
+  
+   Suspend Belief Podcast,
+   
+   allsides
+  ,
+  
+   Tallahassee Democrat,
+   
+   left
+  ,
+  
+   TechCrunch,
+   
+   center
+  ,
+  
+   Ted Rall (cartoonist),
+   
+   left
+  ,
+  
+   Teen Vogue,
+   
+   left-center
+  ,
+  
+   Terri Lynn Land,
+   
+   right
+  ,
+  
+   Test Source,
+   
+   center
+  ,
+  
+   The Advocate-Messenger,
+   
+   left-center
+  ,
+  
+   The Atlantic,
+   
+   left-center
+  ,
+  
+   The Boston Globe,
+   
+   left-center
+  ,
+  
+   The Cadiz Record,
+   
+   left-center
+  ,
+  
+   The Canyon County Zephyr,
+   
+   left
+  ,
+  
+   The College Fix,
+   
+   right
+  ,
+  
+   The Commercial Appeal,
+   
+   left-center
+  ,
+  
+   The Courier-Journal,
+   
+   left-center
+  ,
+  
+   The Daily Caller,
+   
+   right
+  ,
+  
+   The Daily Show (humor),
+   
+   left-center
+  ,
+  
+   The Daily Signal,
+   
+   right
+  ,
+  
+   The Daily Wire,
+   
+   right
+  ,
+  
+   The Delaware County Daily Times,
+   
+   left-center
+  ,
+  
+   The Economist,
+   
+   left-center
+  ,
+  
+   The Federalist,
+   
+   right-center
+  ,
+  
+   The Gateway Pundit,
+   
+   right
+  ,
+  
+   The Guardian,
+   
+   left-center
+  ,
+  
+   The Hill,
+   
+   center
+  ,
+  
+   The Intercept,
+   
+   left
+  ,
+  
+   The Justice,
+   
+   left-center
+  ,
+  
+   The Korea Herald,
+   
+   center
+  ,
+  
+   The Libertarian Republic,
+   
+   right-center
+  ,
+  
+   The Nation,
+   
+   left
+  ,
+  
+   The New Yorker,
+   
+   left
+  ,
+  
+   The Observer (New York),
+   
+   center
+  ,
+  
+   The Oracle,
+   
+   center
+  ,
+  
+   The Red and Black,
+   
+   center
+  ,
+  
+   The Reliable Bias,
+   
+   center
+  ,
+  
+   The Republican,
+   
+   center
+  ,
+  
+   The Root,
+   
+   left-center
+  ,
+  
+   The Sacramento Bee,
+   
+   left-center
+  ,
+  
+   The Saturday Evening Post,
+   
+   center
+  
+ 
+
+
+  
+  
+   The Telegraph - UK,
+   
+   right-center
+  ,
+  
+   The Verge,
+   
+   left-center
+  ,
+  
+   The Village Square,
+   
+   allsides
+  ,
+  
+   The Week,
+   
+   center
+  ,
+  
+   The Weekly Standard,
+   
+   right
+  ,
+  
+   TheBlaze.com,
+   
+   right
+  ,
+  
+   ThinkProgress,
+   
+   left
+  ,
+  
+   Thom Tillis,
+   
+   right
+  ,
+  
+   Thomas Frank,
+   
+   left-center
+  ,
+  
+   Thomas Sowell,
+   
+   right-center
+  ,
+  
+   Tim Groseclose,
+   
+   right-center
+  ,
+  
+   Time Magazine,
+   
+   left
+  ,
+  
+   Tom Cole,
+   
+   right
+  ,
+  
+   Tom Cotton,
+   
+   right
+  ,
+  
+   Tom Toles (cartoonist),
+   
+   left
+  ,
+  
+   Tony Auth (cartoonist),
+   
+   left
+  ,
+  
+   Townhall,
+   
+   right
+  ,
+  
+   Truth or Fiction,
+   
+   center
+  ,
+  
+   TruthOut,
+   
+   left-center
+  ,
+  
+   U.S. News & World Report,
+   
+   left-center
+  ,
+  
+   United States Courts,
+   
+   center
+  ,
+  
+   Univision,
+   
+   left-center
+  ,
+  
+   Upworthy,
+   
+   left
+  ,
+  
+   Urban Institute,
+   
+   left-center
+  ,
+  
+   USA TODAY,
+   
+   center
+  ,
+  
+   Vanity Fair,
+   
+   left-center
+  ,
+  
+   Vice,
+   
+   left
+  ,
+  
+   Victor Hanson,
+   
+   right-center
+  ,
+  
+   Volante,
+   
+   center
+  ,
+  
+   Vote Smart,
+   
+   center
+  ,
+  
+   Vox,
+   
+   left-center
+  ,
+  
+   VT Digger,
+   
+   left-center
+  ,
+  
+   Wall Street Journal- Editorial,
+   
+   right
+  ,
+  
+   Wall Street Journal- News,
+   
+   center
+  ,
+  
+   Walt Handelsman (cartoonist),
+   
+   left
+  ,
+  
+   Washington Examiner,
+   
+   right
+  ,
+  
+   Washington Free Beacon,
+   
+   right
+  ,
+  
+   Washington Guardian,
+   
+   right-center
+  ,
+  
+   Washington Monthly,
+   
+   left-center
+  ,
+  
+   Washington Post,
+   
+   left-center
+  ,
+  
+   Washington Times,
+   
+   right-center
+  ,
+  
+   Watchdog.org,
+   
+   right-center
+  ,
+  
+   Western Journalism,
+   
+   right
+  ,
+  
+   WFAE,
+   
+   center
+  ,
+  
+   WGBH,
+   
+   center
+  ,
+  
+   Whitehouse.gov,
+   
+   right-center
+  ,
+  
+   Wikipedia,
+   
+   center
+  ,
+  
+   Wikipedia (Duplicate),
+   
+   center
+  ,
+  
+   Willam A. Galston,
+   
+   left-center
+  ,
+  
+   William Bennett,
+   
+   right
+  ,
+  
+   William McGurn,
+   
+   right
+  ,
+  
+   Wisconsin Gazette,
+   
+   left-center
+  ,
+  
+   WND.com,
+   
+   right
+  ,
+  
+   World Wildlife Fund,
+   
+   center
+  ,
+  
+   Yahoo News,
+   
+   left-center
+  ,
+  
+   Yes! Magazine,
+   
+   left
+  
+ 

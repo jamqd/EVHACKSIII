@@ -1,4 +1,8 @@
+import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  * Article class represents an article
@@ -9,12 +13,15 @@ public class Article {
 	
 	private String source, title, author, URL;
 	private int rating  = 0;
+	private ArrayList <String> sourceNames;
+	private ArrayList <String> bias;
 	
-	public Article(String aSource, String aTitle, String aAuthor, String aURL, int aRating) {
+	public Article(String aSource, String aTitle, String aAuthor, String aURL) {
 		source =  aSource;
 		title = aTitle;
 		author = aAuthor;
 		URL = aURL;
+		createSourceBiasArray();
 	}
 	/**
 	 * 
@@ -53,22 +60,53 @@ public class Article {
 	 *  1: center right
 	 *  2: right 
 	 */
-	public int getRating(){
-		String sRating = "";
+	public int getIntRating(){
+		String sRating = bias.get(sourceNames.indexOf(source));
 		switch (sRating) {
 			case "left" : rating = -2; break;
-			case "center-left" :  rating = -1; break;
+			case "left-center" :  rating = -1; break;
 			case "center" : rating = 0;  break;
-			case "center-right" :  rating = -1; break;
+			case "right-center" :  rating = -1; break;
 			case "right" : rating = -2; break;
+			case "allsides" : rating = 0; break;
 		}
 		return rating;
 	}
+	/**
+	 * Creates two arraylists one for source name and one for bias
+	 */
 	public void createSourceBiasArray() {
+		sourceNames = new ArrayList<String>();
+		bias = new ArrayList<String>();
 		try{
-			FileReader filereader =  new FileReader("biasData.txt");
+			int count = 1;
+			File file = new File("biasData.txt");
+			Scanner in = new Scanner(file);
+			String next = "";
+			while(in.hasNextLine()) {
+				next = in.nextLine().trim();
+				if(!next.equals(",") && !next.isEmpty()) {
+					if(next.contains(",")) {
+						if(count%2 == 1) {
+							sourceNames.add(next.substring(0,next.indexOf(',')));
+							count++;
+						}else {
+							bias.add(next.substring(0,next.indexOf(',')));
+							count++;
+						}
+					}else {
+						if(count%2 == 1) {
+							sourceNames.add(next);
+							count++;
+						}else {
+							bias.add(next);
+							count++;
+						}
+					}
+				}
+			}
 		}catch (Exception e) {
-			System.out.println("you fucked up");
+			System.out.println(e.getMessage());
 		}
 	}
 }

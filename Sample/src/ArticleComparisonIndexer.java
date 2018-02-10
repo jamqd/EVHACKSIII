@@ -15,12 +15,13 @@ public class ArticleComparisonIndexer {
 	public double getIndex() {
 		int sourceIndex =  getSourceIndex();
 		double textIndex = getTextIndex();
+		index = sourceIndex;
 		// enter formula here modifying index variable
 		return index;
 	}
 	
 	public int getSourceIndex() {
-		return Math.abs(article1.getRating() -  article2.getRating());
+		return Math.abs(article1.getIntRating() -  article2.getIntRating());
 	}
 	
 	public double getTextIndex() {
