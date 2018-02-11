@@ -42,7 +42,7 @@ public class BingNewsSearch {
 	static String host = "https://api.cognitive.microsoft.com";
 	static String path = "/bing/v7.0/news/search";
 
-	static String searchTerm;
+	static String searchTerm = "", lastTerm = "";
 
 	public static SearchResults SearchNews(String searchQuery) throws Exception {
 		// construct URL of search request (endpoint + query string)
@@ -80,9 +80,42 @@ public class BingNewsSearch {
 	}
 
 	public static void main(String[] args) {
+		while(true) {
+			run();
+		}
+	}
+	
+	public static void run() {
 		Scanner in = new Scanner(System.in);
-		System.out.println("Enter search term: ");
-		searchTerm = in.nextLine();
+		String s = "";
+		try {
+			URL u = new URL("http://iotsmarthouse-matthewpham.c9users.io/bs.php");
+			try {
+				Scanner sc = new Scanner(u.openStream());
+				s = sc.nextLine();
+				System.out.println(s);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				return;
+			}
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			return;
+}
+		searchTerm = s;
+		if(searchTerm.equals(lastTerm)) {
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+			return;
+		} else {
+			lastTerm = searchTerm;
+		}
+
 		try {
 			System.out.println("Searching the Web for: " + searchTerm);
 
@@ -111,15 +144,24 @@ public class BingNewsSearch {
 			System.out.println();
 			System.out.println("Articles with largest perspective difference: ");
 			System.out.println(articles.get(bestIndex1) + "\n" + articles.get(bestIndex2));
+			try {
+				System.out.println("Testing 1 - Send Http GET request");
+				URL url = new URL("http://iotsmarthouse-matthewpham.c9users.io/write.php?search=" + articles.get(bestIndex1).getURL() + ":::::" + articles.get(bestIndex2).getURL());
+				url.openStream();
+			} catch (Exception e) {
+				e.getMessage();
+			}
 		} catch (Exception e) {
 			e.printStackTrace(System.out);
 			System.exit(1);
 		}
+		
 
 	}
 
 	/**
 	 * Parses JSON output from Microsoft News Search output
+	 * 
 	 * @param jsonString
 	 * @return - ArrayList of Article objects with attributes from output
 	 */
