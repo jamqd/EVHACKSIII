@@ -1,5 +1,7 @@
 import java.net.*;
 import java.util.*;
+import java.util.concurrent.SynchronousQueue;
+import java.util.function.Consumer;
 import java.io.*;
 import javax.net.ssl.HttpsURLConnection;
 
@@ -19,6 +21,8 @@ import javax.net.ssl.HttpsURLConnection;
  */
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
@@ -90,16 +94,59 @@ public class BingNewsSearch {
 
 			System.out.println("\nJSON Response:\n");
 			System.out.println(prettify(result.jsonResponse));
-			ArrayList <Article> articles = new ArrayList<Article>();
-			for(int i = 0; i < 10; i++) {
-			articles.add(new Article("","","",""));
+			ArrayList<Article> articles = parseJson(result.jsonResponse);
+			System.out.println(articles);
+			int bestIndex1 = 0, bestIndex2 = 0;
+			int bestDiff = 0;
+			for (int i = 0; i < articles.size(); i++) {
+				for (int j = 0; j < articles.size(); j++) {
+					ArticleComparisonIndexer c = new ArticleComparisonIndexer(articles.get(i), articles.get(j));
+					if (c.getIndex() > bestDiff) {
+						bestIndex1 = i;
+						bestIndex2 = j;
+						bestDiff = c.getIndex();
+					}
+				}
 			}
+			System.out.println();
+			System.out.println("Articles with largest perspective difference: ");
+			System.out.println(articles.get(bestIndex1) + "\n" + articles.get(bestIndex2));
 		} catch (Exception e) {
 			e.printStackTrace(System.out);
 			System.exit(1);
 		}
-		
-		
+
+	}
+
+	/**
+	 * Parses JSON output from Microsoft News Search output
+	 * @param jsonString
+	 * @return - ArrayList of Article objects with attributes from output
+	 */
+	public static ArrayList<Article> parseJson(String jsonString) {
+		JsonParser parser = new JsonParser();
+		JsonObject json = parser.parse(jsonString).getAsJsonObject();
+		ArrayList<Article> articles = new ArrayList<Article>();
+
+		JsonArray value = json.getAsJsonArray("value");
+
+		Consumer<JsonElement> consumer = new Consumer<JsonElement>() {
+
+			@Override
+			public void accept(JsonElement arg0) {
+				JsonObject obj = arg0.getAsJsonObject();
+				String name = obj.get("name").getAsString();
+				String url = obj.get("url").getAsString();
+				String provider = obj.get("provider").getAsJsonArray().get(0).getAsJsonObject().get("name")
+						.getAsString();
+				articles.add(new Article(provider, name, url));
+
+			}
+		};
+
+		value.forEach(consumer);
+
+		return articles;
 	}
 }
 
