@@ -88,7 +88,7 @@ public class BingNewsSearch {
 
 	public static void main(String[] args) {
 		// while(true) {
-		run("", "biasData.txt");
+		run("", "WebContent/biasData.txt");
 		// }
 	}
 
@@ -109,8 +109,8 @@ public class BingNewsSearch {
 		// // TODO Auto-generated catch block
 		// return;
 		// }
-		Scanner in = new Scanner(System.in);
-		System.out.println("Enter search term:");
+		//Scanner in = new Scanner(System.in);
+		//System.out.println("Enter search term:");
 		searchTerm = term;
 		// if(searchTerm.equals(lastTerm)) {
 		// try {
@@ -131,12 +131,12 @@ public class BingNewsSearch {
 
 			SearchResults result = SearchNews(searchTerm);
 
-			System.out.println("\nRelevant HTTP Headers:\n");
-			for (String header : result.relevantHeaders.keySet())
-				System.out.println(header + ": " + result.relevantHeaders.get(header));
+			//System.out.println("\nRelevant HTTP Headers:\n");
+			//for (String header : result.relevantHeaders.keySet())
+				//System.out.println(header + ": " + result.relevantHeaders.get(header));
 
-			System.out.println("\nJSON Response:\n");
-			System.out.println(prettify(result.jsonResponse));
+			//System.out.println("\nJSON Response:\n");
+			//System.out.println(prettify(result.jsonResponse));
 			ArrayList<Article> articles = parseJson(result.jsonResponse, path);
 			System.out.println(articles);
 			int bestIndex1 = 0, bestIndex2 = 0;

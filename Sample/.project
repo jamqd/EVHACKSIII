@@ -30,9 +30,9 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>biasData.txt</name>
+			<name>WebContent/biasData.txt</name>
 			<type>1</type>
-			<location>/Users/jd/git/EVHACKSIII/Sample/biasData.txt</location>
+			<location>/Users/jd/git/EVHACKSIII/Sample/WebContent/biasData.txt</location>
 		</link>
 	</linkedResources>
 </projectDescription>
