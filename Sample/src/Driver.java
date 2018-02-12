@@ -1,6 +1,12 @@
 import java.io.File;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Scanner;
+
+import de.l3s.boilerpipe.BoilerpipeProcessingException;
+import de.l3s.boilerpipe.extractors.ArticleExtractor;
+import de.l3s.boilerpipe.extractors.DefaultExtractor;
 
 public class Driver {
 
@@ -9,7 +15,13 @@ public class Driver {
 		// System.out.println(bias.toString());
 		// System.out.println(sourceNames.size());
 		// System.out.println(bias.size());
-		Article test = new Article("New York Times", "TestTitle", "TestURL");
-		System.out.println(test.getIntRating());
+		try {
+			URL a = new URL("https://nyti.ms/2BnL6Ok");
+			System.out.println(DefaultExtractor.INSTANCE.getText(a));
+		} catch (MalformedURLException e) {
+			e.getMessage();	
+		} catch (BoilerpipeProcessingException e) {
+			e.getMessage();
+		}
 	}
 }

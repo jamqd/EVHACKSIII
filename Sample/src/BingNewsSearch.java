@@ -26,6 +26,9 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
+import de.l3s.boilerpipe.BoilerpipeProcessingException;
+import de.l3s.boilerpipe.extractors.DefaultExtractor;
+
 public class BingNewsSearch {
 
 	// ***********************************************
@@ -80,41 +83,43 @@ public class BingNewsSearch {
 	}
 
 	public static void main(String[] args) {
-		while(true) {
+		//while(true) {
 			run();
-		}
+		//}
 	}
 	
 	public static void run() {
+//		Scanner in = new Scanner(System.in);
+//		String s = "";
+//		try {
+//			URL u = new URL("http://iotsmarthouse-matthewpham.c9users.io/bs.php");
+//			try {
+//				Scanner sc = new Scanner(u.openStream());
+//				s = sc.nextLine();
+//				System.out.println(s);
+//			} catch (Exception e) {
+//				// TODO Auto-generated catch block
+//				return;
+//			}
+//		} catch (MalformedURLException e) {
+//			// TODO Auto-generated catch block
+//			return;
+//}
 		Scanner in = new Scanner(System.in);
-		String s = "";
-		try {
-			URL u = new URL("http://iotsmarthouse-matthewpham.c9users.io/bs.php");
-			try {
-				Scanner sc = new Scanner(u.openStream());
-				s = sc.nextLine();
-				System.out.println(s);
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				return;
-			}
-		} catch (MalformedURLException e) {
-			// TODO Auto-generated catch block
-			return;
-}
-		searchTerm = s;
-		if(searchTerm.equals(lastTerm)) {
-			try {
-				Thread.sleep(500);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			
-			return;
-		} else {
-			lastTerm = searchTerm;
-		}
+		System.out.println("Enter serach term:");
+		searchTerm = in.nextLine();
+//		if(searchTerm.equals(lastTerm)) {
+//			try {
+//				Thread.sleep(500);
+//			} catch (InterruptedException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//			
+//			return;
+//		} else {
+//			lastTerm = searchTerm;
+//		}
 
 		try {
 			System.out.println("Searching the Web for: " + searchTerm);
@@ -144,11 +149,23 @@ public class BingNewsSearch {
 			System.out.println();
 			System.out.println("Articles with largest perspective difference: ");
 			System.out.println(articles.get(bestIndex1) + "\n" + articles.get(bestIndex2));
+//			try {
+//				System.out.println("Testing 1 - Send Http GET request");
+//				URL url = new URL("http://iotsmarthouse-matthewpham.c9users.io/write.php?search=" + articles.get(bestIndex1).getURL() + ":::::" + articles.get(bestIndex2).getURL());
+//				url.openStream();
+//			} catch (Exception e) {
+//				e.getMessage();
+//			}
 			try {
-				System.out.println("Testing 1 - Send Http GET request");
-				URL url = new URL("http://iotsmarthouse-matthewpham.c9users.io/write.php?search=" + articles.get(bestIndex1).getURL() + ":::::" + articles.get(bestIndex2).getURL());
-				url.openStream();
-			} catch (Exception e) {
+				URL a1 = new URL(articles.get(bestIndex1).getURL());
+				URL a2 = new URL(articles.get(bestIndex2).getURL());
+				System.out.println(articles.get(bestIndex1));
+				System.out.println(DefaultExtractor.INSTANCE.getText(a1));
+				System.out.println(articles.get(bestIndex2));
+				System.out.println(DefaultExtractor.INSTANCE.getText(a2));
+			} catch (MalformedURLException e) {
+				e.getMessage();	
+			} catch (BoilerpipeProcessingException e) {
 				e.getMessage();
 			}
 		} catch (Exception e) {
