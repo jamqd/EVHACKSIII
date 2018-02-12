@@ -1,4 +1,5 @@
 package Perspective;
+
 import java.net.*;
 import java.util.*;
 import java.util.concurrent.SynchronousQueue;
@@ -32,6 +33,8 @@ import de.l3s.boilerpipe.extractors.DefaultExtractor;
 
 public class BingNewsSearch {
 
+	static ArrayList<Article> bestArticles = new ArrayList<Article>();
+	static ArrayList<String> bestArticlesText = new ArrayList<String>();
 	// ***********************************************
 	// *** Update or verify the following values. ***
 	// **********************************************
@@ -84,43 +87,43 @@ public class BingNewsSearch {
 	}
 
 	public static void main(String[] args) {
-		//while(true) {
-			run("");
-		//}
+		// while(true) {
+		run("", "biasData.txt");
+		// }
 	}
-	
-	public static String run(String term) {
-//		Scanner in = new Scanner(System.in);
-//		String s = "";
-//		try {
-//			URL u = new URL("http://iotsmarthouse-matthewpham.c9users.io/bs.php");
-//			try {
-//				Scanner sc = new Scanner(u.openStream());
-//				s = sc.nextLine();
-//				System.out.println(s);
-//			} catch (Exception e) {
-//				// TODO Auto-generated catch block
-//				return;
-//			}
-//		} catch (MalformedURLException e) {
-//			// TODO Auto-generated catch block
-//			return;
-//}
+
+	public static String run(String term, String path) {
+		// Scanner in = new Scanner(System.in);
+		// String s = "";
+		// try {
+		// URL u = new URL("http://iotsmarthouse-matthewpham.c9users.io/bs.php");
+		// try {
+		// Scanner sc = new Scanner(u.openStream());
+		// s = sc.nextLine();
+		// System.out.println(s);
+		// } catch (Exception e) {
+		// // TODO Auto-generated catch block
+		// return;
+		// }
+		// } catch (MalformedURLException e) {
+		// // TODO Auto-generated catch block
+		// return;
+		// }
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter search term:");
 		searchTerm = term;
-//		if(searchTerm.equals(lastTerm)) {
-//			try {
-//				Thread.sleep(500);
-//			} catch (InterruptedException e) {
-//				// TODO Auto-generated catch block
-//				e.printStackTrace();
-//			}
-//			
-//			return;
-//		} else {
-//			lastTerm = searchTerm;
-//		}
+		// if(searchTerm.equals(lastTerm)) {
+		// try {
+		// Thread.sleep(500);
+		// } catch (InterruptedException e) {
+		// // TODO Auto-generated catch block
+		// e.printStackTrace();
+		// }
+		//
+		// return;
+		// } else {
+		// lastTerm = searchTerm;
+		// }
 
 		String s = "";
 		try {
@@ -134,7 +137,7 @@ public class BingNewsSearch {
 
 			System.out.println("\nJSON Response:\n");
 			System.out.println(prettify(result.jsonResponse));
-			ArrayList<Article> articles = parseJson(result.jsonResponse);
+			ArrayList<Article> articles = parseJson(result.jsonResponse, path);
 			System.out.println(articles);
 			int bestIndex1 = 0, bestIndex2 = 0;
 			int bestDiff = 0;
@@ -151,30 +154,35 @@ public class BingNewsSearch {
 			System.out.println();
 			System.out.println("Articles with largest perspective difference: ");
 			System.out.println(articles.get(bestIndex1) + "\n" + articles.get(bestIndex2));
-//			try {
-//				System.out.println("Testing 1 - Send Http GET request");
-//				URL url = new URL("http://iotsmarthouse-matthewpham.c9users.io/write.php?search=" + articles.get(bestIndex1).getURL() + ":::::" + articles.get(bestIndex2).getURL());
-//				url.openStream();
-//			} catch (Exception e) {
-//				e.getMessage();
-//			}
+			// try {
+			// System.out.println("Testing 1 - Send Http GET request");
+			// URL url = new
+			// URL("http://iotsmarthouse-matthewpham.c9users.io/write.php?search=" +
+			// articles.get(bestIndex1).getURL() + ":::::" +
+			// articles.get(bestIndex2).getURL());
+			// url.openStream();
+			// } catch (Exception e) {
+			// e.getMessage();
+			// }
 			try {
 				URL a1 = new URL(articles.get(bestIndex1).getURL());
 				URL a2 = new URL(articles.get(bestIndex2).getURL());
 				s += articles.get(bestIndex1) + "\n";
+				bestArticles.add(articles.get(bestIndex1));
 				s += DefaultExtractor.INSTANCE.getText(a1) + "\n";
+				bestArticlesText.add(DefaultExtractor.INSTANCE.getText(a1));
 				s += articles.get(bestIndex2) + "\n";
-				s += DefaultExtractor.INSTANCE.getText(a2) +"\n";
+				bestArticles.add(articles.get(bestIndex2));
+				s += DefaultExtractor.INSTANCE.getText(a2) + "\n";
+				bestArticlesText.add(DefaultExtractor.INSTANCE.getText(a2));
 			} catch (Exception e) {
-				e.getMessage();	
+				e.getMessage();
 			}
 		} catch (Exception e) {
 			e.printStackTrace(System.out);
 			System.exit(1);
 		}
-		System.out.println(s);
 		return s;
-		
 
 	}
 
@@ -184,7 +192,7 @@ public class BingNewsSearch {
 	 * @param jsonString
 	 * @return - ArrayList of Article objects with attributes from output
 	 */
-	public static ArrayList<Article> parseJson(String jsonString) {
+	public static ArrayList<Article> parseJson(String jsonString, String path) {
 		JsonParser parser = new JsonParser();
 		JsonObject json = parser.parse(jsonString).getAsJsonObject();
 		ArrayList<Article> articles = new ArrayList<Article>();
@@ -200,7 +208,7 @@ public class BingNewsSearch {
 				String url = obj.get("url").getAsString();
 				String provider = obj.get("provider").getAsJsonArray().get(0).getAsJsonObject().get("name")
 						.getAsString();
-				articles.add(new Article(provider, name, url));
+				articles.add(new Article(provider, name, url, path));
 
 			}
 		};
@@ -208,6 +216,12 @@ public class BingNewsSearch {
 		value.forEach(consumer);
 
 		return articles;
+	}
+	public static Article getArticle(int index) {
+		return bestArticles.get(index);
+	}
+	public static String getArticleText(int index) {
+		return bestArticlesText.get(index);
 	}
 }
 
@@ -221,4 +235,5 @@ class SearchResults {
 		relevantHeaders = headers;
 		jsonResponse = json;
 	}
+
 }

@@ -28,4 +28,11 @@
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>biasData.txt</name>
+			<type>1</type>
+			<location>/Users/jd/git/EVHACKSIII/Sample/biasData.txt</location>
+		</link>
+	</linkedResources>
 </projectDescription>

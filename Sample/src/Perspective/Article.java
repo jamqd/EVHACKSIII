@@ -13,15 +13,16 @@ import java.util.Scanner;
  */
 public class Article {
 
-	private String source, title, URL;
+	private String source, title, URL, path;
 	private int rating = 0;
 	private ArrayList<String> sourceNames;
 	private ArrayList<String> bias;
 
-	public Article(String aSource, String aTitle, String aURL) {
+	public Article(String aSource, String aTitle, String aURL, String aPath ) {
 		source = aSource;
 		title = aTitle;
 		URL = aURL;
+		path = aPath;
 		createSourceBiasArray();
 	}
 
@@ -98,7 +99,7 @@ public class Article {
 		bias = new ArrayList<String>();
 		try {
 			int count = 1;
-			File file = new File("biasData.txt");
+			File file = new File(path);
 			Scanner in = new Scanner(file);
 			String next = "";
 			while (in.hasNextLine()) {
