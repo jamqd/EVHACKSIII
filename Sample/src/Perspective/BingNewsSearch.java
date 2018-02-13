@@ -33,8 +33,8 @@ import de.l3s.boilerpipe.extractors.DefaultExtractor;
 
 public class BingNewsSearch {
 
-	static ArrayList<Article> bestArticles = new ArrayList<Article>();
-	static ArrayList<String> bestArticlesText = new ArrayList<String>();
+	 ArrayList<Article> bestArticles = new ArrayList<Article>();
+	 ArrayList<String> bestArticlesText = new ArrayList<String>();
 	// ***********************************************
 	// *** Update or verify the following values. ***
 	// **********************************************
@@ -88,11 +88,12 @@ public class BingNewsSearch {
 
 	public static void main(String[] args) {
 		// while(true) {
-		run("", "WebContent/biasData.txt");
+		BingNewsSearch a = new BingNewsSearch();
+		a.run("", "WebContent/biasData.txt");
 		// }
 	}
 
-	public static String run(String term, String path) {
+	public String run(String term, String path) {
 		// Scanner in = new Scanner(System.in);
 		// String s = "";
 		// try {
@@ -217,10 +218,10 @@ public class BingNewsSearch {
 
 		return articles;
 	}
-	public static Article getArticle(int index) {
+	public  Article getArticle(int index) {
 		return bestArticles.get(index);
 	}
-	public static String getArticleText(int index) {
+	public  String getArticleText(int index) {
 		return bestArticlesText.get(index);
 	}
 }

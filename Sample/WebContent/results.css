@@ -1,0 +1,17 @@
+@charset "UTF-8";
+#content, html, body {
+    height: 98%;
+}
+#left {
+	float: left;
+	width: 50%;
+	height: 98%;
+	overflow: scroll;
+}
+
+#right {
+	float: left;
+	width: 50%;
+	height: 98%;
+	overflow: scroll;
+}

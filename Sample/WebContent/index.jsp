@@ -8,11 +8,12 @@
 <title>Perspective</title>
 </head>
 <body>
-<form name = "myForm" action = "test.jsp" method = "POST">
+<form name = "myForm" action = "searchResults.jsp" method = "POST">
 <input type = "text" name = "query">
 <input type = "submit" value ="Submit">
 </form>
 	<%
+	
 	%>
 </body>
 </html>
